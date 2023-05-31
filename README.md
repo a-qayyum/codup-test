@@ -18,4 +18,5 @@ This is the repository to perform tests for the codup challenge
 1. e2e folder contains tests
 2. fixtures folder contains data which we use in tests
 3. Support folder contains additional custom commands I have used for verifying API response to amke tests better and fast
-4. cypress.config.js file consists of configurations for opening chrome in incognito mode for the tests
+4. Command.js also contains uncaught exception command which returns the false for an exception during the execution so the tests won't get failed on external exceptions
+5. cypress.config.js file consists of configurations for opening chrome in incognito mode for the tests
